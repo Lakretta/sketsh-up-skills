@@ -1,0 +1,324 @@
+{
+  "version": "2026.1",
+  "company": "ВіЯр (ViyarPro)",
+  "standard_saw_kerf_mm": 4.0,
+  "sheet_trim_margin_mm": 15.0,
+  "materials": {
+    "egger_w1000_18": {
+      "id": "egger_w1000_18",
+      "viyar_article": "12764",
+      "name": "ЛДСП Egger W1000 ST9 Білий преміум 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": false,
+      "color_hex": "#F5F6F7",
+      "price_uah_per_sheet": 2650,
+      "default_edge_body": "pvc_05x22_white",
+      "default_edge_front": "abs_20x22_white"
+    },
+    "egger_w980_18": {
+      "id": "egger_w980_18",
+      "viyar_article": "81042",
+      "name": "ЛДСП Egger W980 SM Білий платиновий 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": false,
+      "color_hex": "#EFEFEF",
+      "price_uah_per_sheet": 2380,
+      "default_edge_body": "pvc_05x22_white",
+      "default_edge_front": "abs_20x22_white"
+    },
+    "egger_u961_18": {
+      "id": "egger_u961_18",
+      "viyar_article": "81101",
+      "name": "ЛДСП Egger U961 ST2 Графіт сірий 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": false,
+      "color_hex": "#3B3D40",
+      "price_uah_per_sheet": 2890,
+      "default_edge_body": "abs_08x22_graphite",
+      "default_edge_front": "abs_20x22_graphite"
+    },
+    "egger_u708_18": {
+      "id": "egger_u708_18",
+      "viyar_article": "81088",
+      "name": "ЛДСП Egger U708 ST9 Світло-сірий 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": false,
+      "color_hex": "#C8CACD",
+      "price_uah_per_sheet": 2720,
+      "default_edge_body": "abs_08x22_grey",
+      "default_edge_front": "abs_20x22_grey"
+    },
+    "egger_h3303_18": {
+      "id": "egger_h3303_18",
+      "viyar_article": "81214",
+      "name": "ЛДСП Egger H3303 ST10 Дуб Гамільтон натуральний 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": true,
+      "color_hex": "#B88B58",
+      "price_uah_per_sheet": 3150,
+      "default_edge_body": "abs_08x22_oak",
+      "default_edge_front": "abs_20x22_oak"
+    },
+    "egger_h1180_18": {
+      "id": "egger_h1180_18",
+      "viyar_article": "81190",
+      "name": "ЛДСП Egger H1180 ST37 Дуб Галіфакс натуральний 18мм",
+      "type": "ldsp",
+      "brand": "Egger",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": true,
+      "color_hex": "#9E7344",
+      "price_uah_per_sheet": 4120,
+      "default_edge_body": "abs_08x22_oak",
+      "default_edge_front": "abs_20x22_oak"
+    },
+    "swiss_krono_white_16": {
+      "id": "swiss_krono_white_16",
+      "viyar_article": "45210",
+      "name": "ЛДСП Swiss Krono Німфея Альба Біла 16мм",
+      "type": "ldsp",
+      "brand": "Swiss Krono",
+      "thickness_mm": 16.0,
+      "sheet_length_mm": 2750,
+      "sheet_width_mm": 1830,
+      "has_grain": false,
+      "color_hex": "#F8F9FA",
+      "price_uah_per_sheet": 1890,
+      "default_edge_body": "pvc_05x22_white",
+      "default_edge_front": "abs_20x22_white"
+    },
+    "mdf_agt_728_18": {
+      "id": "mdf_agt_728_18",
+      "viyar_article": "94312",
+      "name": "МДФ AGT 728 Soft Touch Сірий шовк 18мм",
+      "type": "mdf",
+      "brand": "AGT",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 1220,
+      "has_grain": false,
+      "color_hex": "#7D8287",
+      "price_uah_per_sheet": 4450,
+      "default_edge_body": "abs_10x22_agt728",
+      "default_edge_front": "abs_10x22_agt728"
+    },
+    "mdf_agt_3019_18": {
+      "id": "mdf_agt_3019_18",
+      "viyar_article": "94520",
+      "name": "МДФ AGT 3019 Supramat Кашемір 18мм",
+      "type": "mdf",
+      "brand": "AGT",
+      "thickness_mm": 18.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 1220,
+      "has_grain": false,
+      "color_hex": "#C5B9AE",
+      "price_uah_per_sheet": 4850,
+      "default_edge_body": "abs_10x22_cashmere",
+      "default_edge_front": "abs_10x22_cashmere"
+    },
+    "hdf_white_3": {
+      "id": "hdf_white_3",
+      "viyar_article": "31015",
+      "name": "ХДФ Ламіноване Біле 3мм (Задня стінка / Дно шухляд)",
+      "type": "hdf",
+      "brand": "Kronospan",
+      "thickness_mm": 3.0,
+      "sheet_length_mm": 2800,
+      "sheet_width_mm": 2070,
+      "has_grain": false,
+      "color_hex": "#E2E4E6",
+      "price_uah_per_sheet": 780,
+      "default_edge_body": "none",
+      "default_edge_front": "none"
+    }
+  },
+  "edges": {
+    "none": {
+      "id": "none",
+      "viyar_article": "",
+      "name": "Без крайки",
+      "thickness_mm": 0.0,
+      "width_mm": 0.0,
+      "code_short": "",
+      "price_uah_per_m": 0
+    },
+    "pvc_05x22_white": {
+      "id": "pvc_05x22_white",
+      "viyar_article": "19005",
+      "name": "Крайка ПВХ Maag Біла 22х0.5 мм",
+      "thickness_mm": 0.5,
+      "width_mm": 22.0,
+      "code_short": "0.5х22 (19005)",
+      "price_uah_per_m": 12.5
+    },
+    "abs_08x22_white": {
+      "id": "abs_08x22_white",
+      "viyar_article": "22011",
+      "name": "Крайка АБС Egger W1000 ST9 22х0.8 мм",
+      "thickness_mm": 0.8,
+      "width_mm": 22.0,
+      "code_short": "0.8х22 (22011)",
+      "price_uah_per_m": 24.0
+    },
+    "abs_20x22_white": {
+      "id": "abs_20x22_white",
+      "viyar_article": "22014",
+      "name": "Крайка АБС Egger W1000 ST9 22х2.0 мм",
+      "thickness_mm": 2.0,
+      "width_mm": 22.0,
+      "code_short": "2.0х22 (22014)",
+      "price_uah_per_m": 38.0
+    },
+    "abs_08x22_graphite": {
+      "id": "abs_08x22_graphite",
+      "viyar_article": "22188",
+      "name": "Крайка АБС Egger U961 ST2 Графіт 22х0.8 мм",
+      "thickness_mm": 0.8,
+      "width_mm": 22.0,
+      "code_short": "0.8х22 (22188)",
+      "price_uah_per_m": 25.0
+    },
+    "abs_20x22_graphite": {
+      "id": "abs_20x22_graphite",
+      "viyar_article": "22190",
+      "name": "Крайка АБС Egger U961 ST2 Графіт 22х2.0 мм",
+      "thickness_mm": 2.0,
+      "width_mm": 22.0,
+      "code_short": "2.0х22 (22190)",
+      "price_uah_per_m": 41.0
+    },
+    "abs_08x22_grey": {
+      "id": "abs_08x22_grey",
+      "viyar_article": "22140",
+      "name": "Крайка АБС Egger U708 ST9 Світло-сіра 22х0.8 мм",
+      "thickness_mm": 0.8,
+      "width_mm": 22.0,
+      "code_short": "0.8х22 (22140)",
+      "price_uah_per_m": 25.0
+    },
+    "abs_20x22_grey": {
+      "id": "abs_20x22_grey",
+      "viyar_article": "22142",
+      "name": "Крайка АБС Egger U708 ST9 Світло-сіра 22х2.0 мм",
+      "thickness_mm": 2.0,
+      "width_mm": 22.0,
+      "code_short": "2.0х22 (22142)",
+      "price_uah_per_m": 40.0
+    },
+    "abs_08x22_oak": {
+      "id": "abs_08x22_oak",
+      "viyar_article": "22308",
+      "name": "Крайка АБС Egger H3303 ST10 Дуб Гамільтон 22х0.8 мм",
+      "thickness_mm": 0.8,
+      "width_mm": 22.0,
+      "code_short": "0.8х22 (22308)",
+      "price_uah_per_m": 28.0
+    },
+    "abs_20x22_oak": {
+      "id": "abs_20x22_oak",
+      "viyar_article": "22310",
+      "name": "Крайка АБС Egger H3303 ST10 Дуб Гамільтон 22х2.0 мм",
+      "thickness_mm": 2.0,
+      "width_mm": 22.0,
+      "code_short": "2.0х22 (22310)",
+      "price_uah_per_m": 45.0
+    },
+    "abs_10x22_agt728": {
+      "id": "abs_10x22_agt728",
+      "viyar_article": "94399",
+      "name": "Крайка ПВХ/АБС AGT 728 Сірий шовк 22х1.0 мм (ПУР)",
+      "thickness_mm": 1.0,
+      "width_mm": 22.0,
+      "code_short": "1.0х22 ПУР (94399)",
+      "price_uah_per_m": 55.0
+    },
+    "abs_10x22_cashmere": {
+      "id": "abs_10x22_cashmere",
+      "viyar_article": "94599",
+      "name": "Крайка АБС AGT 3019 Кашемір 22х1.0 мм (ПУР)",
+      "thickness_mm": 1.0,
+      "width_mm": 22.0,
+      "code_short": "1.0х22 ПУР (94599)",
+      "price_uah_per_m": 58.0
+    }
+  },
+  "hardware_presets": {
+    "confirmat_5x50": {
+      "viyar_article": "10412",
+      "name": "Конфірмат 5х50 мм цинк",
+      "unit": "шт",
+      "price_uah": 0.85
+    },
+    "dowel_8x30": {
+      "viyar_article": "10501",
+      "name": "Шкант буковий 8х30 мм",
+      "unit": "шт",
+      "price_uah": 0.45
+    },
+    "minifix_set": {
+      "viyar_article": "11205",
+      "name": "Стяжка ексцентрикова Мініфікс Hafele (ексцентрик D15 + шток)",
+      "unit": "компл",
+      "price_uah": 14.5
+    },
+    "hinge_blum_clip_top_110": {
+      "viyar_article": "71B3550",
+      "name": "Петля накладна Blum CLIP top BLUMOTION 110° з доводчиком + планка",
+      "unit": "компл",
+      "price_uah": 165.0
+    },
+    "shelf_pin_5mm": {
+      "viyar_article": "10820",
+      "name": "Полицетримач 5 мм з кільцем нікель",
+      "unit": "шт",
+      "price_uah": 1.2
+    },
+    "drawer_slides_blum_tandem_450": {
+      "viyar_article": "560H4500B",
+      "name": "Напрямні прихованого монтажу Blum TANDEM ПВ BLUMOTION L=450 мм",
+      "unit": "компл",
+      "price_uah": 980.0
+    },
+    "cabinet_leg_100": {
+      "viyar_article": "14010",
+      "name": "Ніжка кухонна регульована H=100 мм з кліпсою",
+      "unit": "шт",
+      "price_uah": 18.0
+    },
+    "cabinet_hanger_camar_806": {
+      "viyar_article": "806.19",
+      "name": "Навіс регульований Camar 806 (лівий/правий) для верхніх секцій",
+      "unit": "пара",
+      "price_uah": 115.0
+    },
+    "wardrobe_rod_oval": {
+      "viyar_article": "15300",
+      "name": "Штанга гардеробна овальна з тримачами",
+      "unit": "компл",
+      "price_uah": 180.0
+    }
+  }
+}

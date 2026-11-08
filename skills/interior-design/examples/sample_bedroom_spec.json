@@ -1,0 +1,71 @@
+{
+  "room": {
+    "name": "Master Bedroom with Built-in Wardrobe",
+    "width": 4200,
+    "depth": 3600,
+    "wall_thickness": 150
+  },
+  "openings": [
+    {
+      "type": "door",
+      "wall": "south",
+      "offset": 3100,
+      "width": 850
+    },
+    {
+      "type": "window",
+      "wall": "west",
+      "offset": 900,
+      "width": 1800,
+      "sill_height": 750
+    }
+  ],
+  "items": [
+    {
+      "id": "wardrobe",
+      "label": "Built-in Wardrobe + Mezzanine",
+      "category": "storage",
+      "x": 1200,
+      "y": 0,
+      "width": 3000,
+      "depth": 620,
+      "facing": "south",
+      "clearance_front": 850
+    },
+    {
+      "id": "bed",
+      "label": "Queen Bed (1600x2000)",
+      "category": "sleeping",
+      "x": 900,
+      "y": 1520,
+      "width": 1720,
+      "depth": 2080,
+      "facing": "north",
+      "clearance_front": 50,
+      "clearance_left": 650,
+      "clearance_right": 650
+    },
+    {
+      "id": "nightstand_left",
+      "label": "Nightstand L",
+      "category": "storage",
+      "x": 350,
+      "y": 3150,
+      "width": 500,
+      "depth": 420,
+      "facing": "north",
+      "clearance_front": 400
+    },
+    {
+      "id": "nightstand_right",
+      "label": "Nightstand R",
+      "category": "storage",
+      "x": 2670,
+      "y": 3150,
+      "width": 500,
+      "depth": 420,
+      "facing": "north",
+      "clearance_front": 400
+    }
+  ]
+}
